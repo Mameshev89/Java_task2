@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int sumofftikket = 360;
-        int bonusmiles;
-        int savesum = 20;
-        if (sumofftikket >= savesum) {
-            bonusmiles = sumofftikket / savesum;
-            System.out.println(bonusmiles);
+        int sumOffTikket = 360;
+        int bonusMiles;
+        int saveSum = 20;
+        if (sumOffTikket >= saveSum) {
+            bonusMiles = sumOffTikket / saveSum;
+            System.out.println(bonusMiles);
         } else {
-            bonusmiles = 0;
-            System.out.println(bonusmiles);
+            bonusMiles = 0;
+            System.out.println(bonusMiles);
         }
     }
 }
