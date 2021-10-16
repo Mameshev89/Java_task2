@@ -5,10 +5,9 @@ public class Main {
         int saveSum = 20;
         if (sumOffTikket >= saveSum) {
             bonusMiles = sumOffTikket / saveSum;
-            System.out.println(bonusMiles);
         } else {
             bonusMiles = 0;
-            System.out.println(bonusMiles);
         }
+        System.out.println(bonusMiles);
     }
 }
